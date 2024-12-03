@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- <div class=""> -->
+    <div class="container ">
+      <h1 class="form-heading head">Registration</h1>
+       <div class=" d-flex flex-row justify-content-center pt-3">
+      <form id="myForm">
+        <div class="mb-3">
+          <label for="name">Name</label>
+          <div class="wid">
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <p id="nameErrMsg" class="error-message"></p>
+        </div>
+        <div class="mb-3">
+          <label for="email">Email</label>
+          <div class="wid">
+           <input type="text" class="form-control" id="email" />
+          </div>
+          <p id="emailErrMsg" class="error-message"></p>
+        </div>
+        
+        <div class="mb-3">
+          <label for="password">password</label>
+          <div class="wid">
+          <input type="text" class="form-control" id="password" />
+        </div>
+          <p id="passwordErrMsg" class="error-message"></p>
+        </div>
+        
+        <div class="mb-3">
+          <label for="conformpassword">conform password</label>
+          <div class="wid">
+          <input type="text" class="form-control" id="conformpassword" />
+        </div>
+          <p id="conformpasswordErrMsg" class="error-message"></p>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    </div>
+  <!-- </div> -->
+    <script src="Register.js" defer></script>
+  </body> 
+</html>

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.card-size{
+    /* text-align: center; */
+    background-color: white;
+    /* width: 140px; */
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+    /* margin-left:50px; */
+  }
+  .para1{
+    /* text-align:center; */
+    /* margin-left:10px; */
+    margin-top:5px;
+    font-size:20px;
+    font-weight:bold;
+  }
+  .image-size {
+    height: 75px;
+    width: 100px;
+    margin-left: 50px;
+  }
+  .card-name {
+    margin-top:10px;
+    /* margin-left:50px; */
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: normal;
+    /* text-align: center; */
+  }
+  .diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+  }
+.heading{
+  font-family:Roboto;
+  font-style:italic;
+  font-size:bold;
+
+}
+.card{
+  width:25%;
+  height:80vh;
+  margin:10px;
+  overflow-y:auto;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}

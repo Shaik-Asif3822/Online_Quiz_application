@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.anchor{
+  text-decoration: none;
+  color:white;
+}
+.anchor:hover{
+  text-decoration: none;
+  color:white;
+}
+.form-heading {
+  font-family: "Roboto";
+  font-size: 36px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  /* margin-left:50px; */
+}
+
+.error-message {
+  color: #dc3545;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.cont{
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+  /* padding-left:300px; */
+  /* justify-content: center; */
+
+}
+.head{
+  text-align:center;
+}
+.container{
+  
+  background-color:lightblue;
+  background-size:cover;
+  height:100vh;
+  width:100px;
+}
+.form-control{
+  width: 50px;
+  height: 50px;
+}
+.wid{
+  width:300px;
+}

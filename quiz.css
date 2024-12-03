@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+.cont2{
+  /* https://as2.ftcdn.net/v2/jpg/02/30/37/93/1000_F_230379361_GdzubTAT5hxPTuNMMQq5TkLYNKM6WoCc.jpg */
+  background-image: url('https://t4.ftcdn.net/jpg/04/39/13/37/240_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg');
+    background-size:cover;
+    height:100vh;
+    width:100%;
+}
+.col{
+color: black;
+padding:20px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  margin-left:100px;
+  margin-top:20px;
+  font-weight:bold;
+}
+.image{
+  width:400px;
+  height:200px;
+}
+.head{
+  color:white;
+  font-family:Roboto;
+  font-weight:bold;
+  font-style:italic;
+  padding-left:40px;
+  padding-top:50px;
+}
+.para{
+  color:white;
+  padding-left:50px;
+  font-family:Roboto;
+}
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+  background: #b9b3a9;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #3071a9;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+} */
